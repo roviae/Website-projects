@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;;
+}
+.background-img{
+    background-image: url(images/backroundimg.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.heroSection {
+    display: block;
+    padding-bottom: 10px solid black;
+
+}
+.heading {
+    color: #7373e0;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0px 0px 2px black;
+    font-size: 60px;
+}
+
+.headDescription {
+    color: #7373e0;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0px 0px 2px black;
+    font-size: 40px;   
+}
+.activities-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.activityimg {
+    width: 300px;
+    border-radius: 50%;
+    padding: 50px;
+}
+.text {
+    padding: 5px;
+    font-size: 20px;
+}
+.secondHeader {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: #7373e0;
+    padding-top: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.guideProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border-bottom: 3px solid black;
+    width: 500px;
+    background-color: azure;
+    padding: 20px;
+}
+
+#guideimg{
+    width: 200px;
+}
+
+.guideinfor {
+    padding: 15px;
+    font-size: 15px;
+}
+
+#guideHeading {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+#guideName {
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Kanit', sans-serif;
+
+}
