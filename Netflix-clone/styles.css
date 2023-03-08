@@ -1,0 +1,38 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+.background-image {
+    background-image:url(images/netflix.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.79);
+    background-blend-mode: darken;
+}
+.herotopbar {
+    height: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    color: #E50914;
+    
+}
+.Logo {
+    text-shadow: 0px 0px 4px black;
+}
+
+#signinbtn {
+    font-size: 20px;
+    padding: 6px;
+    background-color: #E50914;
+    color: white;
+    border: 0px solid  #E50914;
+    font-weight: 100px;
+    text-shadow: 0px 0px 2px black;
+}
